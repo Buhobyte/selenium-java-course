@@ -34,4 +34,9 @@ public class HomePage {
         return new KeyPressPage(driver);
     }
 
+    public AlertsPage clickAlertsPage() {
+        clickLink("JavaScript Alerts");
+        return new AlertsPage(driver);
+    }
+
 }
