@@ -24,4 +24,9 @@ public class HomePage {
         return new DrownDownPage(driver);
     }
 
+    public HoverPage clickHover() {
+        clickLink("Hovers");
+        return new HoverPage(driver);
+    }
+
 }
