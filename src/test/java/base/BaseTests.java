@@ -18,7 +18,6 @@ public class BaseTests {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
 
-
         homePage = new HomePage(driver);
     }
 
