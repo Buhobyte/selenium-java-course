@@ -43,4 +43,9 @@ public class HomePage {
         clickLink("File Upload");
         return new FileUploadPage(driver);
     }
+
+    public ContextMenuPage clickcContextMenu() {
+        clickLink("Context Menu");
+        return new ContextMenuPage(driver);
+    }
 }
