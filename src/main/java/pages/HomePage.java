@@ -58,4 +58,10 @@ public class HomePage {
         clickLink("Nested Frames");
         return new FrameNestedPage(driver);
     }
+
+    public DynamicLoadingPage clickDynamicLoading() {
+        clickLink("Dynamic Loading");
+        return new DynamicLoadingPage(driver);
+    }
+
 }
