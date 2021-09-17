@@ -48,4 +48,9 @@ public class HomePage {
         clickLink("Context Menu");
         return new ContextMenuPage(driver);
     }
+
+    public FrameEditorPage clickWYSIWYGEditor() {
+        clickLink("WYSIWYG Editor");
+        return new FrameEditorPage(driver);
+    }
 }
